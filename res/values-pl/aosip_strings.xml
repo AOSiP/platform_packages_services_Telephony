@@ -38,36 +38,36 @@
   <string name="preferred_network_mode_gsm_only_choice">Tylko GSM</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">Preferowany GSM/WCDMA</string>
   <!-- Advanced Settings -->
-  <string name="incall_screen_settings">In-call screen settings</string>
-  <string name="show_ssn_label">Event notification</string>
-  <string name="show_ssn_summary">Show a notification for various network events related to call handling</string>
+  <string name="incall_screen_settings">Ustawienia ekranu połączeń</string>
+  <string name="show_ssn_label">Powiadomienia o zdarzeniach</string>
+  <string name="show_ssn_summary">Pokaż powiadomienie o różnych wydarzeniach sieciowych związanych z rozmowami</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
-  <string name="call_notif_unconditionalCF">Unconditional call forwarding active</string>
+  <string name="call_notif_unconditionalCF">Bezwarunkowe przekazywanie połączeń aktywne</string>
   <!-- Toast text for Conditional Call Forwarding enabled  -->
-  <string name="call_notif_conditionalCF">Conditional call forwarding active</string>
+  <string name="call_notif_conditionalCF">Przekazywanie połączeń bezwarunkowe aktywne</string>
   <!-- Toast text for a forwarded MO call  -->
-  <string name="call_notif_MOcall_forwarding">Outgoing call is forwarded</string>
+  <string name="call_notif_MOcall_forwarding">Przekazywanie połączenia wychodzącego</string>
   <!-- Toast text for MO call, when the caller & callee both belng to a CUG group -->
-  <string name="call_notif_cugcall">Call in closed user group</string>
+  <string name="call_notif_cugcall">Połączenie w zamkniętej grupie użytkowników</string>
   <!-- In-call screen: status label when MO calls are barred -->
-  <string name="call_notif_outgoing_barred">Outgoing calls barred</string>
+  <string name="call_notif_outgoing_barred">Wychodzące połączenia zablokowane</string>
   <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
-  <string name="call_notif_incoming_barred">Incoming calls barred at remote party</string>
+  <string name="call_notif_incoming_barred">Przychodzące połączenia zablokowane w grupie</string>
   <!-- Toast text for MO calls when CLIR Suppression is rejected -->
-  <string name="call_notif_clir_suppression_rejected">Own number suppression rejected by network</string>
+  <string name="call_notif_clir_suppression_rejected">Ukrywanie numeru odrzucone przez sieć</string>
   <!-- In-call screen: status label when MO call gets deflected to another party -->
-  <string name="call_notif_call_deflected">Call forwarded by remote party</string>
+  <string name="call_notif_call_deflected">Połączenie przekazane przez grupę</string>
   <!-- Toast text for incoming call being forwarded to other remote party  -->
-  <string name="call_notif_MTcall_forwarding">Incoming call is forwarded</string>
+  <string name="call_notif_MTcall_forwarding">Przekazywanie połączenia przychodzącego</string>
   <!-- Toast text for incoming call which is part of MultiParty Call -->
-  <string name="call_notif_multipartycall">Multi-party call</string>
+  <string name="call_notif_multipartycall">Połączenie konferencyjne</string>
   <!-- Toast text for incoming call which is answered,put on hold & then released -->
-  <string name="call_notif_callonhold_released">Call released remotely</string>
+  <string name="call_notif_callonhold_released">Połączenie zakończone</string>
   <!-- Toast text for incoming call forward check received -->
-  <string name="call_notif_forwardcheckreceived">Call was forwarded</string>
+  <string name="call_notif_forwardcheckreceived">Połączenie zostało przekazane</string>
   <!-- Toast text for incoming call connecting through ECT -->
-  <string name="call_notif_callconnectingect">Call connecting through explicit call transfer</string>
+  <string name="call_notif_callconnectingect">Połączenie ECT</string>
   <!-- Toast text for incoming call connected through ECT -->
-  <string name="call_notif_callconnectedect">Call connected through explicit call transfer</string>
+  <string name="call_notif_callconnectedect">Połączenie ECT</string>
 </resources>
