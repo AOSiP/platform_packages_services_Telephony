@@ -685,6 +685,10 @@ abstract class TelephonyConnection extends Connection implements Holdable {
         // TODO: update TTY mode.
         if (getPhone() != null) {
             getPhone().setEchoSuppressionEnabled();
+
+            if (SystemProperties.getBoolean("ro.telephony.isHisiRIL", false)) {
+                getPhone().setMute(audioState.isMuted());
+            }
         }
     }
 
