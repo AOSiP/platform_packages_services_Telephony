@@ -197,4 +197,12 @@
     <!-- The width for emergency number title container.-->
     <dimen name="emergency_number_title_container_width">210dp</dimen>
 
+    <!-- The text size for titles in settings page.-->
+    <dimen name="dialer_head1_font_size">18dp</dimen>
+
+    <!-- The text size for items in settings page.-->
+    <dimen name="dialer_primary2_font_size">16dp</dimen>
+
+    <!-- The text size for description in settings page.-->
+    <dimen name="dialer_secondary_font_size">14dp</dimen>
 </resources>
