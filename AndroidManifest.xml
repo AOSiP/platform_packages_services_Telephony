@@ -219,11 +219,11 @@
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE" />
     <uses-permission android:name="android.permission.MANAGE_ROLE_HOLDERS" />
+    <uses-permission android:name="android.permission.NETWORK_STATS_PROVIDER" />
     <!-- Allows us to whitelist receivers of the
          ACTION_SIM_SLOT_STATUS_CHANGED broadcast to start activities
          from the background.  -->
     <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
-    <uses-permission android:name="android.permission.NETWORK_STATS_PROVIDER" />
 
     <application android:name="PhoneApp"
             android:persistent="true"
