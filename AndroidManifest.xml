@@ -98,6 +98,9 @@
     <!-- Allows granting runtime permissions to telephony related components. -->
     <uses-permission android:name="android.permission.GRANT_RUNTIME_PERMISSIONS_TO_TELEPHONY_DEFAULTS" />
 
+    <!-- Codeaurora -->
+    <protected-broadcast android:name="org.codeaurora.intent.action.ACTION_RADIO_CAPABILITY_UPDATED" />
+
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
