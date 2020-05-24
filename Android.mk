@@ -39,6 +39,7 @@ LOCAL_SRC_FILES += \
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
 LOCAL_ASSET_DIR := $(addprefix $(LOCAL_PATH)/, $(asset_dirs))
 LOCAL_USE_AAPT2 := true
+LOCAL_REQUIRED_MODULES := privapp_whitelist_com.android.phone.xml
 
 LOCAL_AAPT_FLAGS := \
     --extra-packages com.android.phone.common \
@@ -55,6 +56,14 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags sip/proguard.flags
 include frameworks/base/packages/SettingsLib/common.mk
 
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := privapp_whitelist_com.android.phone.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
 
 # Build the test package
 include $(call all-makefiles-under,$(LOCAL_PATH))
